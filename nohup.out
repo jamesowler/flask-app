@@ -1,0 +1,91 @@
+2019-09-25 01:26:31.828312: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-25 01:26:31.855494: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2019-09-25 01:26:31.856094: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5563768c2140 executing computations on platform Host. Devices:
+2019-09-25 01:26:31.856219: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-25 01:26:31.857522: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-25 01:26:31.885652: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:31.886230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: TITAN RTX major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:01:00.0
+2019-09-25 01:26:31.887417: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-09-25 01:26:31.901734: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-09-25 01:26:31.909285: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-09-25 01:26:31.911535: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-09-25 01:26:31.927983: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-09-25 01:26:31.939930: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-09-25 01:26:31.979274: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-25 01:26:31.979603: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:31.982605: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:31.985567: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-25 01:26:31.986046: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-09-25 01:26:32.084599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-25 01:26:32.084620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-25 01:26:32.084625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-25 01:26:32.084716: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:32.085606: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:32.086122: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 01:26:32.086556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22476 MB memory) -> physical GPU (device: 0, name: TITAN RTX, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-09-25 01:26:32.087769: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55637a434520 executing computations on platform CUDA. Devices:
+2019-09-25 01:26:32.087780: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): TITAN RTX, Compute Capability 7.5
+Using TensorFlow backend.
+127.0.0.1 - - [2019-09-25 01:26:09] "GET / HTTP/1.1" 200 1899 0.004593
+127.0.0.1 - - [2019-09-25 01:26:10] "GET /favicon.ico HTTP/1.1" 404 341 0.000278
+127.0.0.1 - - [2019-09-25 01:26:17] "GET / HTTP/1.1" 200 1899 0.000318
+127.0.0.1 - - [2019-09-25 01:26:18] "GET /about HTTP/1.1" 200 1195 0.001309
+127.0.0.1 - - [2019-09-25 01:26:19] "GET / HTTP/1.1" 200 1899 0.001306
+WARNING:tensorflow:From /home/james/miniconda3/envs/flask/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/james/miniconda3/envs/flask/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2019-09-25 01:26:45.382816: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-09-25 01:26:45.598692: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-25 15:17:12.483460: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-25 15:17:12.512619: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2019-09-25 15:17:12.513359: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56468037b140 executing computations on platform Host. Devices:
+2019-09-25 15:17:12.513479: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-25 15:17:12.514625: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-25 15:17:12.542433: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.542908: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: TITAN RTX major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:01:00.0
+2019-09-25 15:17:12.543647: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-09-25 15:17:12.557905: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-09-25 15:17:12.565905: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-09-25 15:17:12.568121: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-09-25 15:17:12.584359: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-09-25 15:17:12.595367: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-09-25 15:17:12.627176: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-25 15:17:12.627328: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.628298: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.629191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-25 15:17:12.629505: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-09-25 15:17:12.696526: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-25 15:17:12.696550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-25 15:17:12.696557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-25 15:17:12.696648: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.697108: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.697551: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-25 15:17:12.697985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22369 MB memory) -> physical GPU (device: 0, name: TITAN RTX, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-09-25 15:17:12.699589: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564683ef33e0 executing computations on platform CUDA. Devices:
+2019-09-25 15:17:12.699602: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): TITAN RTX, Compute Capability 7.5
+Using TensorFlow backend.
+127.0.0.1 - - [2019-09-25 15:16:33] "GET / HTTP/1.1" 200 1899 0.004671
+127.0.0.1 - - [2019-09-25 15:16:33] "GET /static/css/main.css HTTP/1.1" 200 1256 0.000663
+127.0.0.1 - - [2019-09-25 15:16:33] "GET /static/js/main.js HTTP/1.1" 200 1872 0.000397
+127.0.0.1 - - [2019-09-25 15:16:33] "GET /favicon.ico HTTP/1.1" 404 341 0.000299
+127.0.0.1 - - [2019-09-25 15:16:37] "GET / HTTP/1.1" 200 1899 0.000310
+127.0.0.1 - - [2019-09-25 15:16:39] "GET / HTTP/1.1" 200 1899 0.000317
+127.0.0.1 - - [2019-09-25 15:16:57] "GET / HTTP/1.1" 200 1899 0.001338
+127.0.0.1 - - [2019-09-25 15:16:58] "GET /about HTTP/1.1" 200 1195 0.001810
+127.0.0.1 - - [2019-09-25 15:16:59] "GET / HTTP/1.1" 200 1899 0.000307
+127.0.0.1 - - [2019-09-25 15:17:05] "GET / HTTP/1.1" 200 1899 0.000361
+127.0.0.1 - - [2019-09-25 15:17:05] "GET /static/css/main.css HTTP/1.1" 200 1256 0.000465
+127.0.0.1 - - [2019-09-25 15:17:05] "GET /static/js/main.js HTTP/1.1" 304 210 0.000331
+127.0.0.1 - - [2019-09-25 15:17:07] "GET /about HTTP/1.1" 200 1195 0.001313
+127.0.0.1 - - [2019-09-25 15:17:08] "GET / HTTP/1.1" 200 1899 0.000887
+WARNING:tensorflow:From /home/james/miniconda3/envs/flask/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/james/miniconda3/envs/flask/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2019-09-25 15:17:26.102261: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-09-25 15:17:26.301937: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
